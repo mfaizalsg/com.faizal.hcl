@@ -1,6 +1,6 @@
-Write-Host –NoNewLine "Counting from 1 to 9 (in seconds):  "
+Write-Host –NoNewLine "Counting from 1 to 20 (in seconds):  "
 
-foreach($element in 1..9){
+foreach($element in 1..20){
 
   Write-Host –NoNewLine  "${element} "
 
